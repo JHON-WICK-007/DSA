@@ -1,31 +1,31 @@
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
-// int main()
-// {
-//     cout << "bubble sort" << endl;
-//     int arr1[] = {7, 8, 3, 1, 2};
+int main()
+{
+    cout << "bubble sort" << endl;
+    int arr1[] = {7, 8, 3, 1, 2};
 
-//     int n = sizeof(arr1) / sizeof(arr1[0]);
-//     for (int i = 0; i < n; i++)
-//     {
-//         for (int j = 0; j < n - i - 1; j++)
-//         {
-//             if (arr1[j] > arr1[j + 1])
-//             {
-//                 swap(arr1[j], arr1[j + 1]);
-//             }
-//         }
-//     }
+    int n = sizeof(arr1) / sizeof(arr1[0]);
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            if (arr1[j] > arr1[j + 1])
+            {
+                swap(arr1[j], arr1[j + 1]);
+            }
+        }
+    }
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         cout << arr1[i] << " ";
-//     }
+    for (int i = 0; i < n; i++)
+    {
+        cout << arr1[i] << " ";
+    }
 
-//     cout << endl;
-//     return 0;
-// }
+    cout << endl;
+    return 0;
+}
 
 #include <iostream>
 using namespace std;
