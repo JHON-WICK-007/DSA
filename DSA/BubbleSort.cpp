@@ -7,7 +7,7 @@ int main()
     int arr1[] = {7, 8, 3, 1, 2};
 
     int n = sizeof(arr1) / sizeof(arr1[0]);
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         for (int j = 0; j < n - i - 1; j++)
         {
